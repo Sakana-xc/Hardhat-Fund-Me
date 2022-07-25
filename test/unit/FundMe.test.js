@@ -3,7 +3,7 @@ const { assert, expect } = require("chai")
 
 !developmentChains.includes(network.name)
     ? decribe.skip
-    : describe("FundMe", async function () {
+    : describe("FundMe", function () {
           let fundMe
           let deployer
           let mockV3Aggregator
