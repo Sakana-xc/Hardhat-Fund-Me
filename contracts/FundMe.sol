@@ -74,7 +74,7 @@ contract FundMe {
         return s_addressToAmountFunded[funder];
     }
 
-    function getProceFeed() public view returns(AggregatorV3Interface){
+    function getPriceFeed() public view returns(AggregatorV3Interface){
         return s_priceFeed;
     }
    
